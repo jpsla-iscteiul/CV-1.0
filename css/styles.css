@@ -1,0 +1,155 @@
+/**************Body Style*******************/
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+/*************Heading Style****************/
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+  margin: 20px auto 0 auto;
+  position: relative;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*************Paragraf Style***************/
+p {
+  margin-right: auto;
+}
+
+.programmer {
+  text-decoration: underline;
+}
+
+.bioParagraf {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.copyrightParagrafe{
+  color:#EAF6F6;
+  margin-top: -10px;
+}
+
+/***********Horizontal Line Sytle********/
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  border-color: #EAF6F6;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 8%;
+}
+
+/*************Anchor Style***************/
+a {
+  color: #11999E;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 40px;
+   font-weight: 100;
+   padding: 40px;
+   background-color: #11999E;
+   border: solid #11999E 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   background: #11999E;
+   border: solid #11999E 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+/****************IMG Style***************/
+.topcloud {
+  position: relative;
+  margin-left: 700px;
+  margin-top: 50px;
+}
+
+.bottomCloud {
+  position: absolute;
+  margin-left: -200px;
+}
+
+.mypicture {
+  margin-top: 20px;
+}
+
+.drivingImg {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.ridingImg {
+  width: 25%;
+  float: right;
+}
+
+/***************Table Style*************/
+.table {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.linksTable{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*****************DIV Style*************/
+.topContainer {
+  background-color: #e3fdfd;
+}
+
+.middle-Container {}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin-top: 70px;
+  height: 150px;
+}
+
+.skill-row {
+  width: 50%;
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
